@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios
 
-  s.source       = { :git => 'https://github.com/Raztor0/RBPrecisionTimer.git', :tag => '#{s.version}' }
+  s.source       = { :git => 'https://github.com/Raztor0/RBPrecisionTimer.git', :tag => s.version.to_s }
 
   s.source_files  = 'RBPrecisionTimer/RBPrecisionTimer/*.{h,m}'
 
